@@ -1,5 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './component/navigation';
+
+function App() {
+  return (
+    <div>
+      <Navigation />
+    </div>
+  );
+}
+
+export default App;
+
+
+/*import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
@@ -23,3 +38,4 @@ function App() {
 }
 
 export default App;
+*/

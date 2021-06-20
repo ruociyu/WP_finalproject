@@ -1,0 +1,95 @@
+.text {
+    text-align: center;
+  }
+  
+  .logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Aboutus-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+    .Aboutus-background{
+        /*background-image:url('https://i.pinimg.com/originals/84/ec/23/84ec23531373c46997f436a73240242d.jpg');*/
+        background-image:url('https://images.creativemarket.com/0.1.0/ps/7756675/1820/1213/m1/fpnw/wm1/d9xadh26gbufqy2wdye0eic3lpyz49ibhzrjfqmy4xqwebpjiox1plwtsiqhsjtc-.jpg?1581597619&s=95133beba70aa517244b3b92183c236a');
+        /*background-size: cover;*/
+        background-attachment:fixed;
+        display: flex;
+        flex-direction: column;
+    }
+
+  .Aboutus-header {
+    /*background-color: #3b3f47c7;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*font-size: calc(10px + 2vmin);
+    /* color: white; */
+  }
+
+  .Contactus-background{
+    /*background-image:url("625880.jpg");
+    /*background-size: cover;*/
+    background-attachment:fixed;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Contactus-header {
+    /*background-color: #3b3f47c7;*/
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(15px + 2vmin);
+    /* color: white; */
+  }
+
+  .Contactinfo{
+    width:120px;
+    height:150px;
+    position:relative;
+    top:200px;
+    left:40px;
+
+  }
+
+  .form{
+    
+    background-color: #3b3f47c7;
+    color: rgb(236, 230, 230);
+  }
+  
+  .uccc{
+    background-color: #3b3f47c7;
+    width:500px;
+    height:120px;
+    top:40px;
+    font-size: calc(15px + 2vmin);
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link {
+    color: #61dafb;
+  }
+
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

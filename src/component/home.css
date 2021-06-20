@@ -1,0 +1,35 @@
+.container {
+}
+.child{
+    margin: auto;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+    position: absolute;
+    left:42%;
+    top:80%;
+    
+}
+.intro{
+    top: 40%;
+}
+.UCCC{
+    left:50%;
+    top:40%;
+}
+h1{
+    color:white;
+    text-shadow: 0.1em 0.1em rgb(247, 204, 63);
+    line-height: 150px;
+}
+h3{
+    color:rgb(247, 204, 63);
+    text-shadow: 0.1em 0.1em black;
+    text-align:center;
+    border: 3px ridge rgb(43, 43, 43);
+    width:100px;
+    background-color:#969696;
+}
+h4{
+    text-align:center;
+}

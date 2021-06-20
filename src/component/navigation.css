@@ -1,0 +1,30 @@
+*{
+    margin: 1;
+    padding: 1;
+    List-style: none;
+}
+
+.wrap{
+    width: 80%;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.item{
+    background-color: rgba(252, 191, 181, 0.623);
+    margin: 10px 10px 20px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 10px double  rgba(214, 33, 1, 0.692);
+}
+
+@media screen and (min-width: 768px){
+    .wrap{
+        display: flex;
+        margin: auto;
+    }
+    .item{
+        width: 500px;
+    }
+} 
