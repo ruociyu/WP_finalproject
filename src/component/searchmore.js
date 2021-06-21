@@ -45,7 +45,7 @@ const Searchmore = (props) => {
                 <form onSubmit={handleSubmit} class="row justify-content-center align-items-center text-center">
                 
                     <h2 ><mark>Ş€ΔŘĆĦ ΔŇ¥ŦĦƗŇǤ ¥ØỮ ŴΔŇŦ ŦØ ҜŇØŴ ƗŦŞ ŁØØҜŞ</mark></h2>
-                    <div class="gap-2">
+                    
                     <input type="text" 
                         id="ser"
                         name="ser"
@@ -53,9 +53,8 @@ const Searchmore = (props) => {
                         value={tags}
                         class="col-2"
                     />
-                    
                     <button type="submit" class="btn btn-outline-light col-1 btn-sm" onClick={isSearch}>Search</button>
-                    </div>
+                    
                 <br></br>
                 <br></br>
                 </form>
